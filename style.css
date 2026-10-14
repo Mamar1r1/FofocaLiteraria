@@ -1,0 +1,755 @@
+body {
+
+    margin: 0;
+    font-family: 'Montserat', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #f3be2a;
+
+}
+
+.header img {
+
+    width: 100%;
+
+}
+
+.menu_header {
+
+    display: flex;
+    background-color: #fa5613;
+
+}
+
+a {
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.link_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 0 0.5em 0;
+    height: 100%;
+    width: 25%;
+
+}
+
+.link_header:hover {
+
+    background-color: #ff733b;
+
+}
+
+.fofocas {
+    height: 780px;
+    background-image: url('img/funfo_fofocas.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-position-x: center;
+    background-position-y: 5vh;
+
+}
+
+.titulo_fofocas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fa5613;
+    margin: 3em 2em 3em 0;
+    padding: 1.5em 2em 1.5em 2em;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.box_titulo_fofocas {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.box_fofocas {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em 0 2em;
+
+}
+
+.box_fofocas img {
+
+    display: none;
+
+}
+
+.titulo_fofocas h1 {
+
+    margin: 0.01em;
+    font-size: 40px;
+
+}
+
+.titulo_fofocas h2 {
+
+    margin: 0;
+
+}
+
+.conteudo_fofocas {
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    background-color: #fa5613;
+    margin: 3em 2em 3em 0;
+    padding: 1.5em 2em 1.5em 2em;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.conteudo_fofocas p {
+
+    display: block;
+    font-size: 15px;
+
+}
+
+.conteudo_fofocas h3 {
+
+    font-size: 20px;
+
+}
+
+.livros {
+
+    background-color: #fa5613;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box_livros {
+
+    background-color: #f3be2a;
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.livros_divisor {
+
+    display: none;
+
+}
+
+.livros_info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.livros_info h1 {
+
+    font-size: 50px;
+
+}
+
+.livros_info_box {
+
+    background-color: #fa5613;
+    border-radius: 15px;
+    width: 60%;
+    text-align: center;
+    padding: 0.3em;
+    margin-bottom: 1em;
+
+}
+
+.livros_info_box p {
+
+    line-height: 1.5em;
+    font-size: 16px;
+
+}
+
+.livros_info img {
+
+    width: 10vw;
+
+}
+
+.livros_visual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em 0 0;
+}
+
+.livros_visual h1 {
+
+    font-size: 50px;
+
+}
+
+.livros_visual img {
+
+    width: 20vw;
+
+}
+
+.resumo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('img/resumo_fundo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-position-x: -5.5vw;
+    background-position-y: center;
+
+}
+
+.resumo_1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.resumo_2{
+
+    display: none;
+
+}
+
+.resumo_div {
+
+    display: none;
+
+}
+
+.resumo_texto {
+    width: 40%;
+    padding: 1vw;
+}
+
+.resumo_texto p {
+
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: justify;
+
+}
+
+.nossa_historia {
+
+    display: flex;
+    background-image: url('img/nossahistoria_fundo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-position-x: center;
+    background-position-y: start;
+
+}
+.hist_img{
+
+    display: none;
+
+}
+
+.historia_imagens {
+
+    width: 50%;
+
+}
+
+.historia_imagens_cima {
+
+    display: flex;
+    justify-content: start;
+
+}
+
+.historia_imagens_baixo {
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.historia_imagens_cima img {
+
+    width: 25%;
+    margin: 10vw 5vw 0 3vw;
+
+}
+
+.historia_imagens_baixo img {
+
+    width: 25%;
+    margin: 0 5vw 0 3vw;
+
+}
+
+.historia_texto {
+
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+}
+
+.historia_box {
+
+    width: 90%;
+    background-color: #fa5613;
+    border-radius: 20px;
+    padding: 0vw 1vw;
+
+}
+
+.historia_box p {
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-align: justify;
+
+}
+
+hr {
+
+    width: 80%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #fa5613;
+    background-color: #dddddd;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .fofocas {
+
+        background-size: 100vh;
+        background-position-y: 10vh;
+        margin: 0;
+
+    }
+
+    .titulo_fofocas {
+
+        margin-bottom: 0;
+
+    }
+
+    .conteudo_fofocas {
+
+        width: 20%;
+
+    }
+
+    .livros {
+
+        background-color: #f3be2a;
+        background-image: url('img/livros_fundo.png');
+        background-size: stretch;
+        background-position: relative;
+        background-position-x: center;
+        background-position-y: 5vh;
+
+    }
+
+    .livros_info_box p {
+
+        font-size: 12px;
+        line-height: 1vh;
+
+    }
+
+    .livros_info h1 {
+
+        font-size: 30px;
+
+    }
+
+    .livros_visual h1 {
+
+        font-size: 40px;
+
+    }
+
+    .resumo {
+        background-image: none;
+        flex-direction: column;
+    }
+    .resumo_1{
+
+        flex-direction: column;
+
+    }
+
+    .resumo_div {
+        display: block;
+        width: 40%;
+        background-color: #fa5613;
+        border-radius: 50px;
+        text-align: center;
+        padding: 1vh 0;
+    }
+
+    .resumo_div img {
+
+        width: 60%
+    }
+
+    .resumo_texto {
+
+        width: 80%;
+
+    }
+    .hist_img{
+
+        display: none;
+    
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .fofocas {
+
+        background-size: 130vw;
+        background-position-y: 12vh;
+        background-position-x: -16vw;
+        height: 100%;
+
+    }
+
+    .titulo_fofocas {
+
+        width: 50%;
+
+    }
+
+    .conteudo_fofocas {
+
+        width: 30%;
+        padding: 0.3vw;
+
+    }
+
+    .conteudo_fofocas p {
+
+        font-size: 12px;
+
+    }
+
+    .conteudo_fofocas h3 {
+
+        font-size: 15px;
+
+    }
+
+    .titulo_fofocas h2 {
+
+        font-size: 24px;
+
+    }
+
+    .historia_texto {
+
+        justify-content: end;
+
+    }
+
+    .historia_box {
+
+        width: 70%;
+        margin-right: 5vw;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    body{
+
+        margin-bottom: 50vw;
+
+    }
+    .menu_header {
+
+        align-items: center;
+
+    }
+
+    .fofocas {
+        background-image: none;
+    }
+
+    .box_fofocas img {
+
+        display: block;
+        width: 60%;
+
+    }
+
+    .box_titulo_fofocas {
+
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .titulo_fofocas {
+
+        margin: 10vw 0;
+
+    }
+
+    .titulo_fofocas h2 {
+
+        font-size: 15px;
+
+    }
+
+    .box_fofocas {
+
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .conteudo_fofocas {
+
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 5vw 10vw;
+
+    }
+
+    .livros {
+
+        background: #f3be2a;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .box_livros {
+
+        width: 100%;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .livros_info {
+
+        width: 60vw;
+
+    }
+
+    .livros_info img {
+
+        width: 50%;
+        margin: 3vw 0;
+
+    }
+
+    .livros_visual {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .livros_visual img {
+
+        width: 30vw;
+
+    }
+
+    .livros_visual h1 {
+
+        font-size: 18px;
+
+    }
+
+    .livros_info_box p {
+
+        font-size: 10px;
+        line-height: 4vw;
+
+    }
+
+    .livros_divisor {
+
+        display: block;
+        width: 100%;
+        height: 5vw;
+        background: #fa5613;
+
+    }
+
+    .resumo_1 {
+
+        display: none;
+
+    }
+    .resumo_2{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .resumo_texto_1 {
+
+        display: none;
+        width: 90%;
+        padding: 1vw;
+    }
+    .resumo_texto_2 {
+
+        display: none;
+        width: 90%;
+        padding: 1vw;
+    }
+
+    .resumo_texto_1 p {
+
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: justify;
+
+    }
+    .resumo_texto_2 p {
+
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: justify;
+
+    }
+
+    .livro_check {
+
+        appearance: none;
+
+    }
+    .livro_check2 {
+
+        appearance: none;
+
+    }
+
+    .livro_check:checked~.resumo_texto_1 {
+
+        display: block;
+
+    }
+    .livro_check2:checked~.resumo_texto_2 {
+
+        display: block;
+
+    }
+    .livro_check_label{
+
+        background: #fa5613;
+        padding: 3vw;
+        margin-bottom: 5vw;
+        border-radius: 20px;
+
+    }
+    .livro_check_label2{
+
+        background: #fa5613;
+        padding: 3vw;
+        margin-bottom: 5vw;
+        border-radius: 20px;
+
+    }
+    .resumo_div{
+
+        width:80%;
+        margin-bottom: 5vw;
+
+    }
+    .nossa_historia{
+
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+        padding: 0;
+        margin: 0;
+
+    }
+    .historia_imagens_baixo img{
+
+        width: 50%;
+
+    }
+    .historia_imagens_cima img{
+
+        width: 50%;
+
+    }
+    .historia_imagens{
+
+        margin-bottom: 10vw;
+
+    }
+    .historia_texto{
+
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+    }
+    .hist_img{
+
+        display: block;
+        width: 100%;
+
+    }
+
+
+}
